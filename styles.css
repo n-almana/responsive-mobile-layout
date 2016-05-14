@@ -1,0 +1,39 @@
+#heading {
+  height: 50px;
+  background-color: #999;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.small, .medium, .large {
+  border: 1px solid black;
+  height: 100px;
+}
+
+.small {
+  width: 200px;
+  padding: 1em;
+}
+
+.medium {
+  width: 400px;
+  padding: 1em;
+}
+
+.large {
+  width: 600px;
+  padding: 1em;
+}
+
+#parent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 400px) {
+  .small, .medium, .large {
+  width: 100%;
+  font-size: 12pt;
+  }
+}

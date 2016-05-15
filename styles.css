@@ -8,20 +8,21 @@
 .small, .medium, .large {
   border: 1px solid black;
   height: 100px;
+  margin: 20px;
 }
 
 .small {
-  width: 200px;
+  width: 20%;
   padding: 1em;
 }
 
 .medium {
-  width: 400px;
+  width: 40%;
   padding: 1em;
 }
 
 .large {
-  width: 600px;
+  width: 60%;
   padding: 1em;
 }
 
